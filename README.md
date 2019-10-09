@@ -31,7 +31,7 @@ There is a one to many relationship between zoos and telephones. One zoo can hav
 
 There is a many to many relationship between zoos and animals. A zoo may have many animal types and an animal type may be at many zoos.
 
-The data.sql file seeds the Zoo Database
+The data.sql file seeds the Zoo Database. A SeedData.java Java Class is available for seeding users and their roles. It is currently commented out.
 
 ### The following end points should be working
 
@@ -41,7 +41,7 @@ For the PUT and POST you can assume you are sent all the data with the appropria
 
 * PUT /admin/zoos/{id} - update the zoo referenced by the id number with the provided information
   * Update the Zoo and associated phone number. This does NOT address the Zoo Animal combinations! That would be a separate end point
-  * You could use to test:
+  * You could use to test (use id 2):
   
 ```
 {
