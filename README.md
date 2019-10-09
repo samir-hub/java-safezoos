@@ -31,7 +31,7 @@ There is a one to many relationship between zoos and telephones. One zoo can hav
 
 There is a many to many relationship between zoos and animals. A zoo may have many animal types and an animal type may be at many zoos.
 
-The data.sql file seeds the Zoo Database. A SeedData.java class exists to seed user id and passwords. The necessary tables for user authentication are already in place.
+The data.sql file seeds the Zoo Database. 
 
 ### The following end points should be working
 
