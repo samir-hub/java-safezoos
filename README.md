@@ -31,11 +31,7 @@ There is a one to many relationship between zoos and telephones. One zoo can hav
 
 There is a many to many relationship between zoos and animals. A zoo may have many animal types and an animal type may be at many zoos.
 
-<<<<<<< HEAD
 The data.sql file seeds the Zoo Database. A SeedData.java Java Class is available for seeding users and their roles. It is currently commented out.
-=======
-The data.sql file seeds the Zoo Database. 
->>>>>>> 451ff844538aa70f02cd28de34fbce6e8f181b23
 
 ### The following end points should be working
 
@@ -131,5 +127,4 @@ For the PUT and POST you can assume you are sent all the data with the appropria
   * add end point /users/delete/{id} to delete a user based off of id
   * add end point /users/viewall to show all the users
   * add end point /users/view/{id} to show a user based off of if
-  
   * add auditing fields to zooanimals join table
